@@ -1,0 +1,68 @@
+#container {
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:  #483d8b; /* Lavender Blush */
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  h1 {
+    font-family: 'Nunito', sans-serif;
+    color: #9932cc; /* Dark orchid */
+  }
+  
+  .bar {
+    width: 25px;
+    background-color: palevioletred;
+    margin: 1px;
+  }
+  
+  #button-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  #control-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px; /* Adjust if needed */
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #9932cc; /* Dark orchid */
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:nth-child(even):not(.control-button) {
+    background-color: #8421b2; /* Plum */
+  }
+  
+  button:hover {
+    background-color: #ba55d3; /* Orchid */
+  }
+  
+  /* Specific styles for control buttons (Stop and Reset) */
+  .control-button {
+    background-color: #FF6347; /* Tomato color */
+  }
+  
+  .control-button:hover {
+    background-color: #FF7F50; /* Coral color */
+  }
+  
