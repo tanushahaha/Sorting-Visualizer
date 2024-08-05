@@ -15,3 +15,6 @@ Make sure you have the following installed on your machine:
 
 A modern web browser (e.g., Google Chrome, Firefox, Safari)
 Basic knowledge of HTML, CSS, and JavaScript
+
+for a step by step tutorial follow 
+https://techshetalks.hashnode.dev/creating-a-sorting-visualizer-with-sound-a-step-by-step-journey
